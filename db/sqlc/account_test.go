@@ -4,9 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hanma-kun/Simple_Bank/util"
+	"github.com/hanma-kun/Simple_Bank/db/util"
 	"github.com/stretchr/testify/require"
-	"golang.org/x/tools/godoc/util"
 )
 
 func TestCreateAccount(t *testing.T) {
